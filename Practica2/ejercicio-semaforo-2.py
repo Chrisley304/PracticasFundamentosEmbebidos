@@ -2,10 +2,10 @@ from gpiozero import LED, Button
 from time import sleep
 
 # Definición de los pines asociados a cada LED del semáforo y al botón.
-rojo = LED(26)
-amarillo = LED(13)
-verde = LED(5)
-boton = Button(17)
+rojo = LED(22)
+amarillo = LED(27)
+verde = LED(17)
+boton = Button(23)
 
 
 def esperar(tiempo):
