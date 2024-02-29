@@ -1,6 +1,5 @@
 from bluedot import BlueDot
 from gpiozero import LED
-from gpiozero import LED
 from time import sleep
 
 # Definición de los pines asociados a cada LED del semáforo y definición de bluedot.
