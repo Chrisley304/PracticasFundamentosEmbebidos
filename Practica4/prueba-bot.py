@@ -3,9 +3,13 @@
 # This is a simple echo bot using the decorator mechanism.
 # It echoes any incoming text messages.
 
+import os
+from dotenv import load_dotenv
 import telebot
 
-API_TOKEN = '7101565997:AAGXOGFAmZ8s6EOxp_mFys-moEdRYjakPjs'
+load_dotenv()
+
+API_TOKEN = os.getenv('TELEGRAM_LOSCHAMBEADORESBOT_API_TOKEN')
 
 bot = telebot.TeleBot(API_TOKEN)
 
