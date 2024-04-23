@@ -79,7 +79,6 @@ def exec_command(command, user_first_name):
             led.off()
             return f"Claro {user_first_name}, estoy apagando el LED"
         else:
-            led.on()
             return f"Lo siento {user_first_name}, el LED ya esta apagado"
     elif command == "parpadea el led":
         led.blink(on_time=0.5, off_time=0.5, n=5, background=False)  # Hace parpadear el LED
