@@ -3,3 +3,4 @@
 .env
 __pycache__
 venv
+subscribed_users.json
